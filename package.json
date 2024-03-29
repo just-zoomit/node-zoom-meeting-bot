@@ -1,0 +1,16 @@
+{
+  "name": "zoom-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "addon.js",
+  "scripts": {
+    "install": "node-gyp configure && node-gyp build",
+    "test": "node --napi-modules ./test/test_binding.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^7.0.0"
+  }
+}
