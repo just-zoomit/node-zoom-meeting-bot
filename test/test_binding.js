@@ -8,8 +8,8 @@ const { fork } = require('child_process');
 
 async function testBasic()
 {
-    const clientId = "hhqd_HVuRqqAU3TFPEo_2A";
-    const clientSecret = "WPXd13ejw57WbWzr7DoBcGfrX6bP7Q1R";
+    const clientId = "Your Client ID";
+    const clientSecret = "Your Client Secret";
     const joinUrl = "https://us05web.zoom.us/j/95167681525?pwd=dEROM1lXbVZjTGM1WTZpTlJYWGV1UT09";
 
     const getArgs = (botName) => Object.entries({
